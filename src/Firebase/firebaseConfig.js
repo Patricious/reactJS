@@ -2,7 +2,7 @@ import firebase from 'firebase/app' // doing import firebase from 'firebase' or 
 import 'firebase/auth'
 import 'firebase/database'
 import 'firebase/firestore';
-import Axios from 'axios'
+// import Axios from 'axios'
 
 // Initialize Firebase
 var firebaseApp =  firebase.initializeApp({
