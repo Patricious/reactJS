@@ -33,12 +33,12 @@ class DataFound extends React.Component{
                 this.state.contacts.map(
                     contacts => {
                         return (
-                            <div>
-                                <p>{contacts.fName}</p>
-                                <p>{contacts.email}</p>
-                                <p>{contacts.cNumber}</p>
-                                <p>{contacts.fromDate}</p>
-                                <p>{contacts.toDate}</p>
+                           <div>
+                                <p className='P1'>Name: {contacts.fName}</p>
+                                <p className='P1'>Email: {contacts.email}</p>
+                                <p className='P1'>Phone Number:{contacts.cNumber}</p>
+                                <p className='P1'> Start Date: {contacts.fromDate}</p>
+                                <p className='P1'>End Date: {contacts.toDate}</p>
                             </div>
                         )
                     }
