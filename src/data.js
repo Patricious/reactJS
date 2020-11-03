@@ -9,7 +9,7 @@ class DataFound extends React.Component{
 
     componentDidMount(){
         console.log('mounted')
-        db.collection('c')
+        db.collection('contacts')
          .get()
          .then( snapshot => {
              const contacts = []
